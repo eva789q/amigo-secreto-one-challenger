@@ -3,6 +3,7 @@
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
+    --color-button-2: #1aae9d;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -114,6 +115,14 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+.button-container-2{
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 155px;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
 .button-add {
     background-color: var(--color-tertiary);
@@ -136,7 +145,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #ee00ff;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -153,10 +162,30 @@ ul {
     font-size: 16px;
 }
 
+.button-draw-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button-2);
+    font-size: 16px;
+}
+
+
 .button-draw img {
     margin-right: 40px;
 }
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+h3 {
+    font-family: "Inter", serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-secondary);
+    margin: 10px 0;
+    text-align: center;
 }

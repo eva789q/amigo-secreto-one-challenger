@@ -22,5 +22,5 @@ JavaScript → Lógica de programacion, usada para añadir participantes y reali
 
 
 👤 Autor
-Sebastiann Jaure
+Sebastian Jaure
 Chile
